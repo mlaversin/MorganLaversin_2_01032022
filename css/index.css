@@ -5,29 +5,11 @@
 /* Modified from Andy Bell reset */
 /* https://piccalil.li/blog/a-modern-css-reset/ */
 
-/* Box sizing rules */
+/* Box sizing rules + remove default margin and padding */
 *,
 *::before,
 *::after {
   box-sizing: border-box;
-}
-
-/* Font-size (10px = 1rem) */
-:root {
-  font-size: 62.5%;
-}
-
-/* Remove default margin and padding */
-body,
-h1,
-h2,
-h3,
-h4,
-p,
-figure,
-blockquote,
-dl,
-dd {
   margin: 0;
   padding: 0;
 }
@@ -47,7 +29,7 @@ html:focus-within {
 body {
   min-height: 100vh;
   text-rendering: optimizeSpeed;
-  line-height: 1.5;
+  line-height: 1;
 }
 
 /* A elements that don't have a class get default styles */
@@ -90,7 +72,7 @@ select {
 /* Custom properties                           */
 /* ------------------------------------------- */
 
-.root {
+:root {
   /* Colors */
   --primary-color: #0065fc;
   --secondary-color: #deebff;
@@ -102,5 +84,80 @@ select {
 /* ------------------------------------------- */
 
 body {
+  width: 92.5vw;
+  margin: 0 auto;
   font-family: "Raleway", sans-serif;
+  
+  /* border: 1px solid red; */
 }
+
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+/* ------------------------------------------- */
+/* Header section with Navbar                 */
+/* ------------------------------------------- */
+
+header {
+  height: 90px;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.logo img {
+  width: 92px;
+  margin-left: 16px;
+}
+
+/* Navbar */
+
+.main-nav {
+  height: 100%;
+  width: 300px;
+}
+
+.main-nav ul {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.main-nav ul li {
+  height: 100%;
+  padding: 48px 30px 0 34px;
+
+  border-top: 3px solid transparent;
+}
+
+.main-nav ul li a  {
+  height: 100%;
+}
+.main-nav ul li:hover {
+  color: var(--primary-color);
+  border-top: 3px solid var(--primary-color);
+}
+
+
+/* ------------------------------------------- */
+/* Main section                               */
+/* ------------------------------------------- */
+
+main {
+}
+
+h1 {
+    margin: 10px 0;
+    font-size: 21px;
+    letter-spacing: 0.3px;
+}
+
+
+
+/* ------------------------------------------- */
+/* Footer                                     */
+/* ------------------------------------------- */
