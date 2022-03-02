@@ -53,12 +53,14 @@ header {
 /* ------------------------------------------- */
 
 main {
-  width: 89vw;
+  width: 90vw;
+  border: 1px solid red;
 }
 
 /* Heading */
 
 h1 {
+  margin: 0;
   font-size: 24.6px;
   font-weight: 700;
   line-height: 1.2;
@@ -122,6 +124,45 @@ input[class="search-form-input"]:focus {
   font-weight: 600;
   font-size: 18px;
   line-height: 50px;
+}
+
+/*  Filters section  */
+
+.filters-title {
+  width: 100%;
+  margin-left: 0;
+  margin: 8px 0 4px;
+  font-size: 20px;
+}
+
+.filter {
+  margin-top: 16px;
+  margin-right: 14px;
+}
+
+.filter-prepend {
+  height: 55px;
+  width: 55px;
+  font-size: 20px;
+}
+
+.filter-label {
+  height: 55px;
+  padding: 10px 18px 10px 66px;
+}
+
+/* Search info */
+
+.search-info {
+  margin-top: 44px;
+  font-size: 18px;
+}
+
+.info-logo {
+  padding: 12px;
+  height: 20px;
+  width: 20px;
+  margin-right: 10px;
 }
 
 /* ------------------------------------------- */
