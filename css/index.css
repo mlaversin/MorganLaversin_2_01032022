@@ -204,7 +204,7 @@ input[class="search-form-input"]:focus {
   border-bottom-width: 4px;
 }
 
-.search-form-button {
+.search-form-btn-lg {
   position: absolute;
   top: 0;
   right: 0;
@@ -218,6 +218,10 @@ input[class="search-form-input"]:focus {
   font-weight: 600;
   font-size: 18px;
   line-height: 50px;
+}
+
+.search-form-btn-sm {
+  display: none;
 }
 
 /*  Filters section  */
