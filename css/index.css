@@ -32,11 +32,12 @@ body {
   line-height: 1;
 }
 
-/* A elements that don't have a class get default styles */
-a:not([class]) {
-  text-decoration-skip-ink: auto;
+/* A elements */
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
 }
-
 /* Make images easier to work with */
 img,
 picture {
@@ -89,11 +90,6 @@ body {
   font-family: "Raleway", sans-serif;
 }
 
-a {
-  text-decoration: none;
-  color: inherit;
-  cursor: pointer;
-}
 
 /* ------------------------------------------- */
 /* Header section with Navbar                 */
@@ -128,18 +124,24 @@ header {
 
 .main-nav ul li {
   height: 100%;
-  padding: 48px 30px 0 34px;
   border-top: 3px solid transparent;
 }
 
 .main-nav ul li a {
+  display: block;
   height: 100%;
+  padding: 48px 30px 0 34px;
   font-weight: 500;
 }
+
 .main-nav ul li:hover {
-  color: var(--primary-color);
   border-top: 3px solid var(--primary-color);
 }
+
+.main-nav ul li a:hover {
+  color: var(--primary-color);
+}
+
 
 /* ------------------------------------------- */
 /* Main section                               */
@@ -151,11 +153,36 @@ main {
   margin: 0 auto;
 }
 
+/* Heading */
+
 h1 {
   margin: 10px 0;
-  font-size: 21px;
-  letter-spacing: 0.3px;
+  font-size: 21.5px;
+  font-weight: 800;
 }
+
+
+
+/* Search form */
+
+.search-form {
+  position: relative;
+  margin-top: 24px;
+}
+
+.search-form-prepend {
+  position: absolute;
+}
+
+input[class="search-form-input"] {
+  height: 50px;
+  border: 1px solid #f2f2f2;
+}
+
+
+
+
+
 
 /* ------------------------------------------- */
 /* Footer                                     */
