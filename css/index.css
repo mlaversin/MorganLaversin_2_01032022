@@ -153,7 +153,7 @@ main {
   margin: 0 auto;
 }
 
-/* Heading */
+/* *** Heading *** */
 
 h1 {
   margin: 10px 0;
@@ -161,28 +161,72 @@ h1 {
   font-weight: 800;
 }
 
+/* *** Search section *** */
 
-
-/* Search form */
+/* Search Form */
 
 .search-form {
   position: relative;
-  margin-top: 24px;
+  width: 420px;
+  margin-top: 20px;
 }
 
 .search-form-prepend {
   position: absolute;
+  top: 0;
+  left: 0;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  background-color: var(--background-color);
+}
+
+.search-form-prepend i {
+  font-size: 18px;
 }
 
 input[class="search-form-input"] {
   height: 50px;
+  margin-left: 50px;
+  padding: 14px;
   border: 1px solid #f2f2f2;
+  font-size: 18px;
+  font-weight: 700;
 }
 
+input[class="search-form-input"]:focus {
+  outline: none;
+  border-top-width: 4px;
+  border-bottom-width: 4px;
+}
+
+.search-form-button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 50px;
+  width: 135px;
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 50px;
+}
+
+/*  Filters section  */
 
 
+/* *** Accommodation section  *** */
 
 
+/* *** Activities section  *** */
 
 /* ------------------------------------------- */
 /* Footer                                     */
