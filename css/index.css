@@ -96,7 +96,7 @@ body {
 
 header {
   height: 90px;
-  width: 92.5vw;
+  width: 92vw;
   max-width: 1440px;
   margin: 0 auto 40px;
   display: flex;
@@ -146,7 +146,7 @@ header {
 /* ------------------------------------------- */
 
 main {
-  width: 92.5vw;
+  width: 93vw;
   max-width: 1440px;
   margin: 0 auto;
 }
@@ -159,7 +159,9 @@ h1 {
   font-weight: 700;
 }
 
-/* *** Search section *** */
+/* ------------------------------------------- */
+/* Search section                             */
+/* ------------------------------------------- */
 
 /* Search Form */
 
@@ -216,6 +218,11 @@ input[class="search-form-input"]:focus {
   font-weight: 600;
   font-size: 18px;
   line-height: 50px;
+  cursor: pointer;
+}
+
+.search-form-btn-lg:hover {
+  opacity: 0.8;
 }
 
 .search-form-btn-sm {
@@ -225,7 +232,7 @@ input[class="search-form-input"]:focus {
 /*  Filters section  */
 
 .filters-section {
-  margin-top: 30px;
+  margin-top: 12px;
   display: flex;
   align-items: center;
   flex-wrap: wrap;
@@ -234,7 +241,7 @@ input[class="search-form-input"]:focus {
 .filters-title {
   font-size: 18px;
   font-weight: 800;
-  margin: 20px 25px 6px;
+  margin: 20px 25px 6px 3px;
 }
 
 .filter {
@@ -247,13 +254,13 @@ input[class="search-form-input"]:focus {
 .filter:hover > .filter-prepend {
   color: white;
   background-color: var(--primary-color);
+  /* opacity: 0.8; */
 }
+
 .filter:hover > .filter-label {
   background-color: var(--secondary-color);
   border: 2px solid var(--primary-color);
 }
-
-
 
 .filter-prepend {
   position: absolute;
@@ -282,7 +289,7 @@ input[class="search-form-input"]:focus {
 /* Search info */
 
 .search-info {
-  margin-top: 40px;
+  margin-top: 36px;
   display: flex;
   align-items: center;
 }
@@ -301,11 +308,132 @@ input[class="search-form-input"]:focus {
   font-weight: 800;
 }
 
+/* ------------------------------------------- */
+/* Accommodation section                      */
+/* ------------------------------------------- */
+
+.accommodations-section {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* All accommodations */
+
+.accommodations-all {
+  width: 66%;
+  padding: 40px;
+  background-color: var(--background-color);
+  border-radius: 20px;
+}
+
+.accommodation-title {
+  font-size: 23px;
+  margin: 6px 0;
+}
+
+.accommodation-cards-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.accommodation-card {
+  display: flex;
+  flex-direction: column;
+  width: 245px;
+  padding: 5px;
+  margin: 20px 20px 20px 0;
+  background-color: #fff;
+  border-radius: 15px;
+}
+
+.accommodation-card-img img {
+  width: 100%;
+  height: 114px;
+  object-fit: cover;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.accommodation-card-title {
+  padding: 10px 0;
+  font-size: 16px;
+}
+
+.stars {
+  padding: 6px 0;
+  color: var(--primary-color);
+  font-size: 13px;
+}
+
+.grey-star {
+  color: #d4d4d4;
+}
 
 
-/* *** Accommodation section  *** */
+/* Popular accommodations */
 
-/* *** Activities section  *** */
+.accommodations-popular {
+  width: 31%;
+  padding: 40px;
+  background-color: var(--background-color);
+  border-radius: 20px;
+}
+
+.accommodation-popular-title-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.popular-logo i {
+  font-size: 22px;
+}
+
+.popular-cards-container {
+  width: 100%;
+}
+
+.popular-cards-container .accommodation-card {
+  flex-direction: row;
+  height: 145px;
+  width: 100%;
+  margin: 30px 0;
+}
+
+.popular-cards-container .accommodation-card:last-child {
+  margin-bottom: 0;
+}
+
+.popular-cards-container img {
+  width: 125px;
+  min-width: 125px;
+  height: 100%;
+  border-bottom-left-radius: 15px;
+  border-top-right-radius: 0px;
+}
+
+.popular-cards-container .accommodation-card-body {
+  padding: 10px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.popular-cards-container .stars {
+  justify-self: end;
+}
+
+
+/* ------------------------------------------- */
+/* Activities section                         */
+/* ------------------------------------------- */
+
+.activities-section {
+  margin-top: 40px;
+}
+
+
 
 /* ------------------------------------------- */
 /* Footer                                     */
