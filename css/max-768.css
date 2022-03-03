@@ -53,11 +53,15 @@ header {
 /* ------------------------------------------- */
 
 main {
-  width: 90vw;
-  border: 1px solid red;
+  width: 100vw;
 }
 
 /* Heading */
+
+.heading {
+  width: 90vw;
+  margin: 0 auto;
+}
 
 h1 {
   margin: 0;
@@ -73,7 +77,14 @@ h1 {
   margin-top: 16px;
 }
 
-/* Search form */
+.search-section {
+  width: 90vw;
+  margin: 0 auto;
+}
+
+/* ------------------------------------------- */
+/* Search Form                                */
+/* ------------------------------------------- */
 
 .search-form {
   width: 100%;
@@ -105,7 +116,6 @@ input[class="search-form-input"]:focus {
   border-bottom-width: 2px;
 }
 
-
 .search-form-btn-lg {
   display: none;
 }
@@ -126,7 +136,9 @@ input[class="search-form-input"]:focus {
   line-height: 50px;
 }
 
-/*  Filters section  */
+/* ------------------------------------------- */
+/* Filter section                             */
+/* ------------------------------------------- */
 
 .filters-title {
   width: 100%;
@@ -163,6 +175,46 @@ input[class="search-form-input"]:focus {
   height: 20px;
   width: 20px;
   margin-right: 10px;
+}
+
+/* ------------------------------------------- */
+/* Accommodation section                      */
+/* ------------------------------------------- */
+
+.accommodations-section {
+  flex-direction: column-reverse;
+}
+
+/* ------------------------------------------- */
+/* All accommodations                         */
+/* ------------------------------------------- */
+
+.accommodations-all {
+  width: 100%;
+  border-radius: 0;
+  background-color: white;
+}
+
+.accommodation-card {
+  width: 100%;
+}
+
+/* ------------------------------------------- */
+/* Popular accommodations                      */
+/* ------------------------------------------- */
+
+.accommodations-popular {
+  width: 100%;
+  border-radius: 0;
+}
+
+/* ------------------------------------------- */
+/* Activities section                         */
+/* ------------------------------------------- */
+
+.activities-section {
+  width: 90vw;
+  margin: 0 auto;
 }
 
 /* ------------------------------------------- */

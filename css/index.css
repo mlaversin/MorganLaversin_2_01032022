@@ -160,7 +160,7 @@ h1 {
 }
 
 /* ------------------------------------------- */
-/* Search Form                                 */
+/* Search Form                                */
 /* ------------------------------------------- */
 
 
@@ -383,7 +383,7 @@ input[class="search-form-input"]:focus {
 
 
 /* ------------------------------------------- */
-/* Poular accommodations                      */
+/* Popular accommodations                      */
 /* ------------------------------------------- */
 
 .accommodations-popular {
@@ -407,14 +407,13 @@ input[class="search-form-input"]:focus {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  
 }
 
 .popular-cards-container .accommodation-card {
-  flex-direction: row;
   height: 145px;
   width: 100%;
   margin: 30px 0;
+  flex-direction: row;
 }
 
 .popular-cards-container .accommodation-card:last-child {
