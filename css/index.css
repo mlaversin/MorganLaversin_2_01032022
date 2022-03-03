@@ -120,10 +120,11 @@ h1 {
 input[class="search-form-input"] {
   height: 50px;
   margin-left: 50px;
-  padding: 14px;
+  padding-left: 14px;
   border: 1px solid #f2f2f2;
   font-size: 18px;
   font-weight: 700;
+  line-height: 50px;
 }
 
 input[class="search-form-input"]:focus {
@@ -275,13 +276,20 @@ input[class="search-form-input"]:focus {
 .accommodation-card {
   display: flex;
   flex-direction: column;
-  width: 245px;
+  width: 246px;
   margin-top: 20px;
   padding: 5px;
   background-color: #fff;
   border-radius: 15px;
   box-shadow: 5px 5px 35px rgba(0, 0, 0, 0.15);
+  transition: 0.3s;
 }
+
+.accommodation-card:hover {
+  transform: scale(1.03);
+  box-shadow: 10px 10px 35px rgba(0, 0, 0, 0.3);
+}
+
 
 .accommodation-card-img img {
   width: 100%;
@@ -316,7 +324,7 @@ input[class="search-form-input"]:focus {
 /* ------------------------------------------- */
 
 .accommodations-popular {
-  width: 31%;
+  width: 32%;
   padding: 40px;
   background-color: var(--background-color);
   border-radius: 20px;
