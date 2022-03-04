@@ -30,7 +30,9 @@
   <!-- Header section with Navbar -->
   <header>
     <div class="logo">
-      <img src="./images/logo/Booki@3x.png" alt="logo Booki">
+      <a href="./index.html">
+        <img src="./images/logo/Booki@3x.png" alt="logo Booki">
+      </a>
     </div>
     <nav class="main-nav">
       <ul role="list">
@@ -57,7 +59,7 @@
         <div class="search-form-prepend">
           <i class="fa-solid fa-location-dot"></i>
         </div>
-        <input type="text" class="search-form-input" name="location" id="location" placeholder="Où allez-vous ?">
+        <input class="search-form-input" type="text" name="location" id="location" placeholder="Où allez-vous ?">
         <button type="submit" class="search-form-btn-lg">Rechercher</button>
         <button type="submit" class="search-form-btn-sm">
           <i class="fa-solid fa-magnifying-glass"></i>
@@ -67,25 +69,25 @@
       <!-- Filters section -->
       <section class="filters-section">
         <h3 class="filters-title">Filtres</h3>
-        <div class="filter filter-eco">
+        <div class="filter">
           <div class="filter-prepend">
             <i class="fa-solid fa-money-bill-wave"></i>
           </div>
           <div class="filter-label">Économique</div>
         </div>
-        <div class="filter filter-fam">
+        <div class="filter">
           <div class="filter-prepend">
             <i class="fa-solid fa-child"></i>
           </div>
           <div class="filter-label">Familial</div>
         </div>
-        <div class="filter filter-rom">
+        <div class="filter">
           <div class="filter-prepend">
             <i class="fa-solid fa-heart"></i>
           </div>
           <div class="filter-label">Romantique</div>
         </div>
-        <div class="filter filter-pet">
+        <div class="filter">
           <div class="filter-prepend">
             <i class="fa-solid fa-dog"></i>
           </div>
@@ -94,42 +96,46 @@
       </section>
 
       <!-- Search info -->
-      <div class="search-info">
+      <section class="search-info-section">
         <div class="info-logo">
           <i class="fa-solid fa-info"></i>
         </div>
         <p class="info-content">
           Plus de 500 logements sont disponibles dans cette ville
         </p>
-      </div>
+      </section>
 
     </section>
-    <!--Search section end  -->
+    <!-- End of search section  -->
+
+
 
 
     <!-- Accommodations section -->
     <section id="accommodations-section" class="accommodations-section">
 
       <!-- All accommodations -->
-      <section class="accommodations-all">
+      <section class="all-accommodations-section">
         <h2 class="accommodation-title">Hébergements à Marseille</h2>
         <div class="accommodation-cards-container">
 
           <article class="accommodation-card">
             <a href="#">
-              <div class="accommodation-card-img">
-                <img src="./images/accommodations/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg"
-                  alt="une chambre de l'hébergement">
-              </div>
-              <div class="accommodation-card-body">
-                <h3 class="accommodation-card-title">Auberge La Cannebière</h3>
-                <p class="accomodation-card-price">Nuit à partir de <b>25€</b></p>
-                <div class="stars">
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star grey-star"></i>
+              <div class="card-wrapper">
+                <div class="accommodation-card-img">
+                  <img src="./images/accommodations/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg"
+                    alt="une chambre de l'hébergement">
+                </div>
+                <div class="accommodation-card-body">
+                  <h3 class="accommodation-card-title">Auberge La Cannebière</h3>
+                  <p class="accomodation-card-price">Nuit à partir de <b>25€</b></p>
+                  <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star grey-star"></i>
+                  </div>
                 </div>
               </div>
             </a>
@@ -239,79 +245,99 @@
         <h3 class="more-accomodation-link"><a href="#">Afficher plus</a></h3>
       </section>
 
+
+
+
+
       <!-- Popular accommodations -->
-      <section class="accommodations-popular">
-        <div class="accommodation-popular-title-container">
+      <section class="popular-accommodations-section">
+        <div class="popular-heading">
           <h2 class="accommodation-popular-title">Les plus populaires</h2>
-          <div class="popular-logo">
+          <div>
             <i class="fa-solid fa-chart-line"></i>
           </div>
         </div>
 
         <div class="popular-cards-container">
 
-          <article class="accommodation-card">
-            <div class="accommodation-card-img">
-              <img src="./images/accommodations/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg"
-                alt="une chambre de l'hébergement">
-            </div>
-            <div class="accommodation-card-body">
-              <div class="wrapper">
-                <h3 class="accommodation-card-title">Hôtel Le soleil du matin</h3>
-                <p class="accomodation-card-price">Nuit à partir de 128<b>€</b></p>
+          <article class="accommodation-card popular-card">
+            <a href="#">
+              <div class="card-wrapper">
+                <div class="accommodation-card-img">
+                  <img src="./images/accommodations/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg"
+                    alt="une chambre de l'hébergement">
+                </div>
+                <div class="accommodation-card-body">
+                  <div>
+                    <h3 class="accommodation-card-title">Hôtel Le soleil du matin</h3>
+                    <p class="accomodation-card-price">Nuit à partir de 128<b>€</b></p>
+                  </div>
+                  <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                </div>
               </div>
-              <div class="stars">
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-              </div>
-            </div>
+            </a>
           </article>
 
-          <article class="accommodation-card">
-            <div class="accommodation-card-img">
-              <img src="./images/accommodations/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg"
-                alt="une chambre de l'hébergement">
-            </div>
-            <div class="accommodation-card-body">
-              <div class="wrapper">
-                <h3 class="accommodation-card-title">Au cœur de l'eau Chambres d'hôtes</h3>
-                <p class="accomodation-card-price">Nuit à partir de 71<b>€</b></p>
+          <article class="accommodation-card popular-card">
+            <a href="#">
+              <div class="card-wrapper">
+                <div class="accommodation-card-img">
+                  <img src="./images/accommodations/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg"
+                    alt="une chambre de l'hébergement">
+                </div>
+                <div class="accommodation-card-body">
+                  <div>
+                    <h3 class="accommodation-card-title">Au cœur de l'eau Chambres d'hôtes</h3>
+                    <p class="accomodation-card-price">Nuit à partir de 71<b>€</b></p>
+                  </div>
+                  <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star grey-star"></i>
+                  </div>
+                </div>
               </div>
-              <div class="stars">
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star grey-star"></i>
-              </div>
-            </div>
+            </a>
           </article>
 
-          <article class="accommodation-card">
-            <div class="accommodation-card-img">
-              <img src="./images/accommodations/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg"
-                alt="une chambre de l'hébergement">
-            </div>
-            <div class="accommodation-card-body">
-              <div class="wrapper">
-                <h3 class="accommodation-card-title">Hôtel Tout bleu et Blanc</h3>
-                <p class="accomodation-card-price">Nuit à partir de <b>96€</b></p>
+          <article class="accommodation-card popular-card">
+            <a href="#">
+              <div class="card-wrapper">
+                <div class="accommodation-card-img">
+                  <img src="./images/accommodations/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg"
+                    alt="une chambre de l'hébergement">
+                </div>
+                <div class="accommodation-card-body">
+                  <div>
+                    <h3 class="accommodation-card-title">Hôtel Tout bleu et Blanc</h3>
+                    <p class="accomodation-card-price">Nuit à partir de <b>96€</b></p>
+                  </div>
+                  <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star grey-star"></i>
+                  </div>
+                </div>
               </div>
-              <div class="stars">
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star grey-star"></i>
-              </div>
-            </div>
+            </a>
           </article>
+
         </div>
       </section>
     </section>
+
+
+
 
 
     <!--  Activities section  -->

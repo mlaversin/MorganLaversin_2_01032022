@@ -10,7 +10,7 @@ header {
   margin: 0 0 34px 0;
 }
 
-.logo img {
+.logo {
   width: 110px;
   margin: 24px auto;
 }
@@ -165,7 +165,7 @@ input[class="search-form-input"]:focus {
 
 /* Search info */
 
-.search-info {
+.search-info-section {
   margin-top: 44px;
   font-size: 18px;
 }
@@ -189,7 +189,7 @@ input[class="search-form-input"]:focus {
 /* All accommodations                         */
 /* ------------------------------------------- */
 
-.accommodations-all {
+.all-accommodations-section {
   width: 100%;
   border-radius: 0;
   background-color: white;
@@ -203,7 +203,7 @@ input[class="search-form-input"]:focus {
 /* Popular accommodations                      */
 /* ------------------------------------------- */
 
-.accommodations-popular {
+.popular-accommodations-section {
   width: 100%;
   border-radius: 0;
 }
