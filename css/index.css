@@ -427,8 +427,95 @@ input[class="search-form-input"]:focus {
   margin-top: 40px;
 }
 
+.activities-cards-container {
+  margin-top: 40px;
+  max-height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 44px;
+}
+
+.activity-card {
+  width: 22.5%;
+}
+
+.activities-section .card-wrapper {
+  
+  border-radius: 20px;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.15);
+  transition: 0.3s;
+}
+
+.activities-section .card-wrapper:hover {
+  transform: scale(1.03);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+.card-1 .card-wrapper {
+  height: 444px;
+}
+
+.card-2 .card-wrapper {
+  height: 235px;
+}
+
+.card-3 .card-wrapper {
+  height: 164px;
+}
+
+.card-4 .card-wrapper {
+  height: 444px;
+}
+
+.card-5 .card-wrapper {
+  height: 195px;
+}
+
+.card-6 .card-wrapper {
+  height: 209px;
+}
+
+.activity-card-img {
+  height: 100%;
+  overflow: hidden;
+}
+
+.activity-card-img img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.activity-card-title {
+  height: 56px;
+}
+
+.activity-card-title h3 {
+  font-size: 16px;
+  padding: 20px;
+}
+
+@media screen and (max-width: 1244px) {
+  .activity-card-title {
+    height: 68px;
+  }
+}
 
 
 /* ------------------------------------------- */
 /* Footer                                     */
 /* ------------------------------------------- */
+
+footer {
+  margin-top: 40px;
+  height: 300px;
+  background-color: var(--background-color);
+}
