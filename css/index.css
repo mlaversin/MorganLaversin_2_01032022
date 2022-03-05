@@ -70,6 +70,9 @@ header {
   color: var(--primary-color);
 }
 
+
+
+
 /* ------------------------------------------- */
 /* Main section                               */
 /* ------------------------------------------- */
@@ -239,6 +242,9 @@ input[class="search-form-input"]:focus {
   font-weight: 800;
 }
 
+
+
+
 /* ------------------------------------------- */
 /* Accommodation section                      */
 /* ------------------------------------------- */
@@ -274,14 +280,20 @@ input[class="search-form-input"]:focus {
 }
 
 .accommodation-card {
-  
-  width: 246px;
+  width: 30%;
+  min-width: 225px;
   margin-top: 20px;
   padding: 5px;
   background-color: #fff;
   border-radius: 15px;
   box-shadow: 5px 5px 35px rgba(0, 0, 0, 0.15);
   transition: 0.3s;
+}
+
+@media screen and (max-width: 1432px) {
+  .accommodation-card {
+    width: 46%;
+  }
 }
 
 .card-wrapper {
@@ -397,24 +409,6 @@ input[class="search-form-input"]:focus {
   }
   .popular-accommodations-section {
     width: 36%;
-  }
-}
-
-@media screen and (max-width: 1220px) {
-  .all-accommodations-section {
-    width: 58%;
-  }
-  .popular-accommodations-section {
-    width: 39%;
-  }
-}
-
-@media screen and (max-width: 1120px) {
-  .all-accommodations-section {
-    width: 48%;
-  }
-  .popular-accommodations-section {
-    width: 48%;
   }
 }
 
