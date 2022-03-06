@@ -1,0 +1,68 @@
+/* ------------------------------------------- */
+/* Filter section                             */
+/* ------------------------------------------- */
+
+.filters-title {
+    width: 100%;
+}
+
+.filter {
+    margin-right: 15px;
+}
+
+.filter-prepend {
+    height: 42px;
+    width: 42px;
+    font-size: 14px;
+  }
+  
+  .filter-label {
+    height: 42px;
+    padding-left: 50px;
+    line-height: 21px;
+  }
+
+/* ------------------------------------------- */
+/* Accommodation section                      */
+/* ------------------------------------------- */
+
+.accommodations-section {
+  flex-direction: column-reverse;
+}
+
+.all-accommodations-section {
+  /* TODO */
+  display: none;
+  width: 90vw;
+  background-color: unset;
+}
+
+.popular-accommodations-section {
+  width: 90vw;
+}
+
+.popular-cards-container {
+  margin-top: 40px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: space-between;
+  flex-wrap: wrap;
+  gap: 40px;
+  border: 1px solid red;
+}
+
+.popular-card {
+  width: 46%;
+  margin: 0;
+  border: 1px solid rgb(0, 255, 115);
+}
+
+
+/* ------------------------------------------- */
+/* Activities section                         */
+/* ------------------------------------------- */
+
+.activities-section {
+  /* TODO */
+  display: none;
+}
