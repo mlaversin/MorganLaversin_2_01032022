@@ -228,7 +228,7 @@ input[class="search-form-input"]:focus {
 
 /* Search info */
 
-.search-info-section {
+.search-info {
   margin-top: 36px;
   display: flex;
   align-items: center;
