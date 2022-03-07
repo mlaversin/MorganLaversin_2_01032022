@@ -15,7 +15,7 @@ header {
   margin: 24px auto;
 }
 
-/* Navbar */
+/* Primary navbar */
 
 .primary-nav {
   width: 100%;
@@ -41,7 +41,7 @@ header {
 }
 
 .primary-nav ul li a {
-  padding: 0;
+  padding: 0 0 15px 0;
 }
 
 .primary-nav ul li a:hover {
@@ -52,9 +52,9 @@ header {
 /* Main section                               */
 /* ------------------------------------------- */
 
-
-
-/* Heading */
+main {
+  width: 100vw;
+}
 
 .heading {
   width: 90vw;
@@ -71,18 +71,27 @@ h1 {
 
 .heading p {
   font-size: 18px;
-  letter-spacing: 0.1px;
   margin-top: 16px;
 }
+
+@media screen and (max-width: 365px) {
+  h1 {
+    font-size: 21px;
+  }
+  .heading p {
+    font-size: 15px;
+  }
+}
+
+
+/* ------------------------------------------- */
+/* Search Form                                */
+/* ------------------------------------------- */
 
 .search-section {
   width: 90vw;
   margin: 0 auto;
 }
-
-/* ------------------------------------------- */
-/* Search Form                                */
-/* ------------------------------------------- */
 
 .search-form {
   width: 100%;
@@ -138,34 +147,32 @@ input[class="search-form-input"]:focus {
 /* Filter section                             */
 /* ------------------------------------------- */
 
+.filters-section {
+  gap: 15px;
+}
+
 .filters-title {
-  margin-left: 0;
-  margin: 8px 0 4px;
   font-size: 20px;
 }
 
-.filter {
-  margin-top: 16px;
-  margin-right: 14px;
-}
-
 .filter-prepend {
-  height: 55px;
-  width: 55px;
+  height: 50px;
+  width: 50px;
   font-size: 20px;
 }
 
 .filter-label {
-  height: 55px;
-  padding-left: 66px;
-  line-height: 27px;
+  height: 50px;
+  padding-left: 60px;
+  font-size: 16px;
+  line-height: 25px;
 }
 
 /* Search info */
 
 .search-info-section {
   margin-top: 44px;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .info-logo {
@@ -175,28 +182,45 @@ input[class="search-form-input"]:focus {
   margin-right: 10px;
 }
 
+
+
+
 /* ------------------------------------------- */
 /* Accommodation section                      */
 /* ------------------------------------------- */
 
 
+/* ------------------------------------------- */
+/* All accommodations                         */
+/* ------------------------------------------- */
 
 .all-accommodations-section {
   width: 90%;
+  margin: 0 auto;
 }
 
 .accommodation-card {
   width: 100%;
 }
 
+/* ------------------------------------------- */
+/* Popular accommodations                      */
+/* ------------------------------------------- */
 
 .popular-accommodations-section {
   width: 100%;
+  padding: 0;
   border-radius: 0;
+}
+
+.popular-heading {
+  width: 90%;
+  margin: 30px auto;
 }
 
 .popular-cards-container {
   width: 90%;
+  margin: 30px auto;
   justify-content: center;
   align-content: center;
 }
@@ -208,9 +232,56 @@ input[class="search-form-input"]:focus {
 
 .activities-section {
   width: 90vw;
-  margin: 0 auto;
+  margin: 20px auto 0;
+}
+
+.activities-cards-container {
+  max-height: unset;
+  gap: 30px;
+}
+
+.activities-section .card-wrapper {
+  height: 190px;
+}
+
+.activity-card {
+  width: 100%;
+}
+
+.activity-card-title {
+  height: 70px;
+}
+
+.activity-card-title h3 {
+  font-size: 16px;
+  padding: 0 20px;
 }
 
 /* ------------------------------------------- */
 /* Footer                                     */
 /* ------------------------------------------- */
+
+footer .wrapper {
+  width: 85%;
+  padding: 0;
+  flex-direction: column;
+}
+
+.footer-item {
+  width: 100%;
+  margin-top: 45px;
+}
+
+.footer-item:last-child {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+footer h3 {
+  font-size: 18px;
+}
+
+footer li a {
+  font-size: 16px;
+  padding: 8px 0;
+}
