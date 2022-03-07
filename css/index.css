@@ -42,8 +42,8 @@ header {
   align-items: flex-end;
 }
 
-.logo {
-  width: 90px;
+.logo img {
+  width: 100px;
   padding-bottom: 15px;
 }
 
