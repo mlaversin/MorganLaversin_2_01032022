@@ -399,6 +399,8 @@ input[class="search-form-input"]:focus {
   border-top-right-radius: 0px;
 }
 
+
+
 .popular-card .accommodation-card-body {
   padding: 12px 20px 3px 20px;
   display: flex;
@@ -415,6 +417,16 @@ input[class="search-form-input"]:focus {
   justify-self: end;
 }
 
+@media screen and (max-width: 1180px) {
+  .popular-card img {
+    width: 110px;
+    min-width: 110px;
+  }
+  .popular-card .accommodation-card-body {
+    padding: 12px 10px 3px 8px;
+  }
+}
+
 /* media queries for accomodations containers*/
 
 @media screen and (max-width: 1432px) {
@@ -425,6 +437,7 @@ input[class="search-form-input"]:focus {
     width: 36%;
   }
 }
+
 
 @media screen and (max-width: 1166px) {
   .all-accommodations-section {
@@ -542,7 +555,10 @@ footer {
 }
 
 footer .wrapper {
-  padding: 50px;
+  width: 93vw;
+  max-width: 1340px;
+  margin: 0 auto;
+  padding: 50px 0;
   display: flex;
 }
 
