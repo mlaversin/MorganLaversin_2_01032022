@@ -14,7 +14,6 @@
 /* ------------------------------------------- */
 
 body {
-  width: 100vw;
   font-family: "Raleway", sans-serif;
   overflow-x: hidden;
 }
@@ -52,7 +51,7 @@ header {
 
 .primary-nav {
   height: 100%;
-  width: 23%;
+  width: 300px;
 }
 
 .primary-nav ul {
@@ -279,8 +278,7 @@ input[class="search-form-input"]:focus {
 .accommodation-cards-container {
   margin-top: 24px;
   display: flex;
-  justify-content: space-around;
-  align-content: space-between;
+  justify-content: space-between;
   flex-wrap: wrap;
   gap: 30px;
 }
@@ -457,7 +455,6 @@ input[class="search-form-input"]:focus {
   flex-wrap: wrap;
   align-content: space-between;
   gap: 45px;
-  border: 1px solid red;
 }
 
 .activity-card {
@@ -517,18 +514,22 @@ input[class="search-form-input"]:focus {
 
 .activity-card-title {
   height: 56px;
+  display: flex;
+  align-items: center;
 }
 
 .activity-card-title h3 {
   font-size: 16px;
-  padding: 20px;
+  padding: 0 20px;
 }
 
-@media screen and (max-width: 1244px) {
+@media screen and (max-width: 1338px) {
   .activity-card-title {
     height: 68px;
   }
 }
+
+
 
 
 /* ------------------------------------------- */

@@ -52,9 +52,7 @@ header {
 /* Main section                               */
 /* ------------------------------------------- */
 
-main {
-  width: 100vw;
-}
+
 
 /* Heading */
 
@@ -185,7 +183,6 @@ input[class="search-form-input"]:focus {
 
 .all-accommodations-section {
   width: 90%;
-  border-radius: 0;
 }
 
 .accommodation-card {

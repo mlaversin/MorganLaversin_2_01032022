@@ -1,26 +1,34 @@
 /* ------------------------------------------- */
+/* Header section with Navbar                 */
+/* ------------------------------------------- */
+
+/* ------------------------------------------- */
+/* Main section                               */
+/* ------------------------------------------- */
+
+main {
+  width: 90vw;
+}
+
+/* ------------------------------------------- */
 /* Filter section                             */
 /* ------------------------------------------- */
 
 .filters-title {
-    width: 100%;
-}
-
-.filter {
-    margin-right: 15px;
+  width: 100%;
 }
 
 .filter-prepend {
-    height: 42px;
-    width: 42px;
-    font-size: 14px;
-  }
-  
-  .filter-label {
-    height: 42px;
-    padding-left: 50px;
-    line-height: 21px;
-  }
+  height: 42px;
+  width: 42px;
+  font-size: 14px;
+}
+
+.filter-label {
+  height: 42px;
+  padding-left: 50px;
+  line-height: 18px;
+}
 
 /* ------------------------------------------- */
 /* Accommodation section                      */
@@ -30,15 +38,40 @@
   flex-direction: column-reverse;
 }
 
+/* ------------------------------------------- */
+/* All accommodations                         */
+/* ------------------------------------------- */
+
 .all-accommodations-section {
-  /* TODO */
-  display: none;
-  width: 90vw;
+  width: 100%;
+  padding: 45px 0px;
   background-color: unset;
+  border-radius: unset;
+  border: 1px solid orange;
 }
 
+.accommodation-cards-container {
+  gap: 25px;
+}
+
+.accommodation-card {
+  width: 30%;
+}
+
+@media screen and (max-width: 840px) {
+  .accommodation-card {
+    width: 46%;
+  }
+}
+
+/* ------------------------------------------- */
+/* Popular accommodations                      */
+/* ------------------------------------------- */
+
 .popular-accommodations-section {
-  width: 90vw;
+  width: 100%;
+  margin: 0 auto;
+  padding: 40px 35px;
 }
 
 .popular-cards-container {
@@ -47,22 +80,76 @@
   justify-content: space-between;
   align-content: space-between;
   flex-wrap: wrap;
-  gap: 40px;
-  border: 1px solid red;
 }
 
 .popular-card {
   width: 46%;
   margin: 0;
-  border: 1px solid rgb(0, 255, 115);
 }
-
 
 /* ------------------------------------------- */
 /* Activities section                         */
 /* ------------------------------------------- */
 
 .activities-section {
-  /* TODO */
-  display: none;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.activities-cards-container {
+  max-height: 450px;
+  gap: 30px;
+}
+
+.activity-card {
+  width: 30%;
+}
+
+.card-1 .card-wrapper {
+  height: 250px;
+}
+
+.card-2 .card-wrapper {
+  height: 150px;
+}
+
+.card-3 .card-wrapper {
+  height: 150px;
+}
+
+.card-4 .card-wrapper {
+  height: 250px;
+}
+
+.card-5 .card-wrapper {
+  height: 250px;
+}
+
+.card-6 .card-wrapper {
+  height: 150px;
+}
+
+.activity-card-title {
+  height: 56px;
+}
+
+.activity-card-title h3 {
+  font-size: 14px;
+  padding: 0 10px;
+}
+
+/* ------------------------------------------- */
+/* Footer                                     */
+/* ------------------------------------------- */
+
+footer .wrapper {
+  padding: 40px;
+}
+
+footer h3 {
+  font-size: 16px;
+}
+
+footer li a {
+  font-size: 14px;
 }
