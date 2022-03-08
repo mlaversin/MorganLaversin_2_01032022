@@ -482,7 +482,7 @@ input[class="search-form-input"]:focus {
 }
 
 .activity-card {
-  width: 22.5%;
+  width: calc(25% - 33.75px);
 }
 
 .activities-section .card-wrapper {

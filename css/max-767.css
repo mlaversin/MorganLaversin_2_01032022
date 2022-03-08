@@ -271,7 +271,7 @@ input[class="search-form-input"]:focus {
 
 .activities-cards-container {
   max-height: unset;
-  gap: 30px;
+  gap: 20px;
 }
 
 .activities-section .card-wrapper {

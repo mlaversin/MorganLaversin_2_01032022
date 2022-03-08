@@ -104,33 +104,28 @@ main {
 
 .activities-cards-container {
   max-height: 450px;
-  gap: 30px;
+  gap: 25px;
 }
 
 .activity-card {
-  width: 30%;
+  width: calc(33.3% - 25px);
 }
 
 .card-1 .card-wrapper {
   height: 250px;
 }
-
 .card-2 .card-wrapper {
   height: 150px;
 }
-
 .card-3 .card-wrapper {
   height: 150px;
 }
-
 .card-4 .card-wrapper {
   height: 250px;
 }
-
 .card-5 .card-wrapper {
   height: 250px;
 }
-
 .card-6 .card-wrapper {
   height: 150px;
 }
