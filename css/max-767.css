@@ -219,6 +219,11 @@ input[class="search-form-input"]:focus {
   width: 100%;
 }
 
+.accommodation-card:hover {
+  transform: scale(1.01);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
 .stars {
   font-size: 12px;
 }
@@ -281,6 +286,12 @@ input[class="search-form-input"]:focus {
 .activity-card {
   width: 100%;
 }
+
+.activities-section .card-wrapper:hover {
+  transform: scale(1.01);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
 
 .activity-card-title {
   height: 56px;
