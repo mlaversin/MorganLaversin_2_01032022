@@ -44,13 +44,10 @@ header {
 
 .logo {
   margin-bottom: 15px;
-  border: 1px solid red;
 }
 
 .logo img {
   width: 90px;
-  
-  border: 1px solid red;
 }
 
 /* Primary navbar */
@@ -335,6 +332,7 @@ input[class="search-form-input"]:focus {
 
 .accomodation-card-price {
   font-size: 14px;
+  padding-bottom: 5px;
 }
 
 .stars {
@@ -399,7 +397,7 @@ input[class="search-form-input"]:focus {
 
 .popular-card img {
   width: 130px;
-  min-width: 125px;
+  min-width: 130px;
   height: 100%;
   border-bottom-left-radius: 15px;
   border-top-right-radius: 0px;

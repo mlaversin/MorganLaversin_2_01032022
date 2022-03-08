@@ -3,7 +3,7 @@
 /* ------------------------------------------- */
 
 header {
-  height: 150px;
+  height: 132px;
   width: 100vw;
   flex-direction: column;
   align-items: center;
@@ -22,11 +22,12 @@ header {
 
 .primary-nav {
   width: 100%;
+  height: 100px;
 }
 
 .primary-nav ul li {
   width: 50vw;
-  padding: 12px 0 0 0;
+  padding: 20px 0 0 0;
   border: unset;
   border-bottom: 3px solid #f2f2f2;
   text-align: center;
@@ -44,7 +45,8 @@ header {
 }
 
 .primary-nav ul li a {
-  padding: 0 0 15px 0;
+  font-size: 16px;
+  padding: 0 0 12px 0;
 }
 
 .primary-nav ul li a:hover {
@@ -57,6 +59,7 @@ header {
 
 main {
   width: 100vw;
+  margin-top: 15px;
 }
 
 .heading {
@@ -66,14 +69,14 @@ main {
 
 h1 {
   margin: 0;
-  font-size: 24.6px;
+  font-size: 22px;
   font-weight: 700;
   line-height: 1.2;
   letter-spacing: 0;
 }
 
 .heading p {
-  font-size: 18px;
+  font-size: 16px;
   margin-top: 16px;
 }
 
@@ -99,12 +102,12 @@ h1 {
 .search-form {
   width: 100%;
   max-width: 400px;
-  margin-top: 42px;
+  margin-top: 35px;
 }
 
 .search-form-prepend {
-  height: 58px;
-  width: 58px;
+  height: 50px;
+  width: 50px;
   border-top-left-radius: 18px;
   border-bottom-left-radius: 18px;
 }
@@ -114,11 +117,11 @@ h1 {
 }
 
 input[class="search-form-input"] {
-  height: 58px;
-  width: calc(100% - 110px);
-  margin: 0 58px;
+  height: 50px;
+  width: calc(100% - 80px);
+  margin: 0 50px;
   padding: 20px;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 input[class="search-form-input"]:focus {
@@ -135,8 +138,8 @@ input[class="search-form-input"]:focus {
   position: absolute;
   top: 0;
   right: 0;
-  height: 58px;
-  width: 58px;
+  height: 50px;
+  width: 50px;
   background-color: var(--primary-color);
   color: white;
   border: none;
@@ -146,16 +149,21 @@ input[class="search-form-input"]:focus {
   line-height: 50px;
 }
 
+.search-form-btn-sm:hover {
+  opacity: 0.8;
+}
+
 /* ------------------------------------------- */
 /* Filter section                             */
 /* ------------------------------------------- */
 
 .filters-section {
+  margin-top: 35px;
   gap: 15px;
 }
 
 .filters-title {
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .filter-prepend {
@@ -200,10 +208,19 @@ input[class="search-form-input"]:focus {
 .all-accommodations-section {
   width: 90%;
   margin: 0 auto;
+  padding-top: 40px;
+}
+
+.accommodation-cards-container {
+  gap: 12px;
 }
 
 .accommodation-card {
   width: 100%;
+}
+
+.stars {
+  font-size: 12px;
 }
 
 /* ------------------------------------------- */
@@ -218,7 +235,7 @@ input[class="search-form-input"]:focus {
 
 .popular-heading {
   width: 90%;
-  margin: 30px auto;
+  margin: 40px auto 30px;
 }
 
 .popular-cards-container {
@@ -226,6 +243,20 @@ input[class="search-form-input"]:focus {
   margin: 30px auto;
   justify-content: center;
   align-content: center;
+  gap: 12px;
+}
+
+.popular-card .accommodation-card-body {
+  padding-left: 20px;
+}
+
+.popular-card img {
+  width: 130px;
+  min-width: 130px;
+}
+
+.popular-card .stars {
+  font-size: 11px;
 }
 
 
@@ -235,7 +266,7 @@ input[class="search-form-input"]:focus {
 
 .activities-section {
   width: 90vw;
-  margin: 20px auto 0;
+  margin: 15px auto 0;
 }
 
 .activities-cards-container {
@@ -244,7 +275,7 @@ input[class="search-form-input"]:focus {
 }
 
 .activities-section .card-wrapper {
-  height: 190px;
+  height: 192px;
 }
 
 .activity-card {
@@ -252,7 +283,7 @@ input[class="search-form-input"]:focus {
 }
 
 .activity-card-title {
-  height: 70px;
+  height: 75px;
 }
 
 .activity-card-title h3 {
