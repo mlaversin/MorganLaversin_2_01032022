@@ -11,8 +11,11 @@ header {
 }
 
 .logo {
-  width: 110px;
   margin: 24px auto;
+}
+
+.logo img {
+  width: 70px;
 }
 
 /* Primary navbar */

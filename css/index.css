@@ -42,9 +42,15 @@ header {
   align-items: flex-end;
 }
 
+.logo {
+  margin-bottom: 15px;
+  border: 1px solid red;
+}
+
 .logo img {
-  width: 100px;
-  padding-bottom: 15px;
+  width: 90px;
+  
+  border: 1px solid red;
 }
 
 /* Primary navbar */
