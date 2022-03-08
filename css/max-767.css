@@ -283,7 +283,8 @@ input[class="search-form-input"]:focus {
 }
 
 .activity-card-title {
-  height: 75px;
+  height: 56px;
+  min-height: 56px;
 }
 
 .activity-card-title h3 {

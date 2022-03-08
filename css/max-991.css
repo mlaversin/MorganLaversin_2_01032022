@@ -136,12 +136,13 @@ main {
 }
 
 .activity-card-title {
-  height: 56px;
+  height: 50px;
+  min-height: 50px;
 }
 
 .activity-card-title h3 {
-  font-size: 14px;
-  padding: 0 10px;
+  font-size: 15px;
+  padding: 0 15px;
 }
 
 /* ------------------------------------------- */
