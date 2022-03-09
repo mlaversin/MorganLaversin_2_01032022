@@ -108,8 +108,11 @@ main {
 }
 
 .activity-card {
+  /* 1/3 container width minus 1/2 gap amount */
   width: calc(33.3% - 25px);
 }
+
+/* individual cards height adjustments */
 
 .card-1 .card-wrapper {
   height: 200px;
