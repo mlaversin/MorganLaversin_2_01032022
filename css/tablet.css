@@ -112,22 +112,22 @@ main {
 }
 
 .card-1 .card-wrapper {
-  height: 250px;
+  height: 200px;
 }
 .card-2 .card-wrapper {
-  height: 150px;
+  height: 200px;
 }
 .card-3 .card-wrapper {
-  height: 150px;
+  height: 125px;
 }
 .card-4 .card-wrapper {
-  height: 250px;
+  height: 275px;
 }
 .card-5 .card-wrapper {
-  height: 250px;
+  height: 225px;
 }
 .card-6 .card-wrapper {
-  height: 150px;
+  height: 175px;
 }
 
 .activity-card-title {
